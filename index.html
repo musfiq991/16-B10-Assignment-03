@@ -22,18 +22,82 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'arc-color': '#ABEF5F',
               }
             }
           }
         }
       </script>
+      <!-- font awesome cdn  -->
+      <script src="https://kit.fontawesome.com/b36fc2dc44.js" crossorigin="anonymous"></script>
 </head>
-<body class="font-manrope">
+<body class="font-manrope mx-4 md:mx-32">
     <!-- header section  -->
-     <header>
+     <header class="">
         <!-- nav bar  -->
-         <nav></nav>
+         <nav class="">
+         <div class="">
+          <div class="">
+            <div class="navbar bg-base-100">
+              <div class="navbar-start ">
+               
+                <a class="inline-flex justify-center items-center "><i class="fa-solid fa-arrow-right -rotate-45 text-sm w-7 h-7 rounded-full bg-arc-color text-black inline-flex justify-center items-center"></i><span class="text-2xl font-bold">Rinterio</span></a>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li class="font-bold"><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end">
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] p-2 shadow">
+                    <li class="font-bold"><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                
+               <div class="hidden lg:flex justify-center items-center gap-5"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i> <a class="btn rounded-2xl bg-arc-color font-bold ">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 rounded-full bg-black text-white inline-flex justify-center items-center"></i></a></div>
+               
+              </div>
+            </div>
+          </div>
+         
+         </div>
+         </nav>
          <!-- header infos -->
+          <!-- bg image  -->
+<div class="space-y-5">
+       <div class="flex justify-center"> <img class="" src="assets/banner.png" alt=""></div>
+       <!-- bg-info and btn  -->
+    <div class="text-center space-y-5">
+        <h1 class="font-bold text-6xl ">A barn house of this design has a striking appearance</h1>
+    <p class="text-gray-500 text-2xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+    <button class="btn bg-arc-color bg-opacity-50">View Details<i class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 rounded-full bg-arc-color text-black inline-flex justify-center items-center"></i></button>
+    </div>
+</div>
      </header>
      <!-- main section  -->
      <main>
@@ -41,7 +105,7 @@
      </main>
 <!-- footer section  -->
  <footer>
-    
+
  </footer>
 </body>
 </html>
